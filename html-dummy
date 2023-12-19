@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header Tags and Table Example</title>
+</head>
+<body>
+
+    <h1>This is an H1 Heading</h1>
+    <p>This is some content under the H1 heading.</p>
+
+    <h2>This is an H2 Heading</h2>
+    <p>This is some content under the H2 heading.</p>
+
+    <h3>This is an H3 Heading</h3>
+    <p>This is some content under the H3 heading.</p>
+
+    <h4>This is an H4 Heading</h4>
+    <p>This is some content under the H4 heading.</p>
+
+    <h5>This is an H5 Heading</h5>
+    <p>This is some content under the H5 heading.</p>
+
+    <h6>This is an H6 Heading</h6>
+    <p>This is some content under the H6 heading.</p>
+
+    <h2>Another H2 Heading</h2>
+    <p>Additional content under another H2 heading.</p>
+
+    <h3>Yet Another H3 Heading</h3>
+    <p>More content under an H3 heading.</p>
+
+    <table border="1">
+        <caption>Sample Table</caption>
+        <thead>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+                <th>Header 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Row 1, Cell 1</td>
+                <td>Row 1, Cell 2</td>
+                <td>Row 1, Cell 3</td>
+            </tr>
+            <tr>
+                <td>Row 2, Cell 1</td>
+                <td>Row 2, Cell 2</td>
+                <td>Row 2, Cell 3</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
