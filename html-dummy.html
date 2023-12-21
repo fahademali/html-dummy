@@ -26,8 +26,9 @@
 
                 <h5>Nested Header (H5)</h5>
 
+                <!-- Table with thead and tbody -->
                 <table border="1">
-                    <caption>Sample Table</caption>
+                    <caption>Table with thead and tbody</caption>
                     <thead>
                         <tr>
                             <th>Header 1</th>
@@ -45,6 +46,93 @@
                         </tr>
                     </tbody>
                 </table>
+
+                <!-- Table without thead -->
+                <table border="1">
+                    <caption>Table without thead</caption>
+                    <tbody>
+                        <tr>
+                            <td>Row 1, Cell 1</td>
+                            <td>Row 1, Cell 2</td>
+                        </tr>
+                        <tr>
+                            <td>Row 2, Cell 1</td>
+                            <td>Row 2, Cell 2</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <!-- Table without tbody -->
+                <table border="1">
+                    <caption>Table without tbody</caption>
+                    <thead>
+                        <tr>
+                            <th>Header 1</th>
+                            <th>Header 2</th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td>Row 1, Cell 1</td>
+                        <td>Row 1, Cell 2</td>
+                    </tr>
+                    <tr>
+                        <td>Row 2, Cell 1</td>
+                        <td>Row 2, Cell 2</td>
+                    </tr>
+                </table>
+
+                <!-- Empty Table -->
+                <table border="1">
+                    <caption>Empty Table</caption>
+                </table>
+                <!-- Table with Empty Header and Body -->
+                <table border="1">
+                    <caption>Table with Empty Header and Body</caption>
+                    <thead>
+                        <!-- Empty Header -->
+                    </thead>
+                    <tbody>
+                        <!-- Empty Body -->
+                    </tbody>
+                </table>
+
+                <!-- Table with Irregular Structure -->
+                <table border="1">
+                    <caption>Table with Irregular Structure</caption>
+                    <th>Irregular Header 1</th>
+                    <td>Irregular Row 1, Cell 1</td>
+                    <td>Irregular Row 1, Cell 2</td>
+                    <th>Irregular Header 2</th>
+                    <td>Irregular Row 2, Cell 1</td>
+                    <td>Irregular Row 2, Cell 2</td>
+                </table>
+                <!-- Table with Multiple <thead> and <tbody> Elements -->
+                <table border="1">
+                    <caption>Table with Multiple <thead> and <tbody> Elements</caption>
+                    <thead>
+                        <tr>
+                            <th>Header 1</th>
+                            <th>Header 2</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Row 1, Cell 1</td>
+                            <td>Row 1, Cell 2</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <!-- Another <tbody> element -->
+                        <tr>
+                            <td>Row 2, Cell 1</td>
+                            <td>Row 2, Cell 2</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+
+
             </div>
         </article>
     </section>
